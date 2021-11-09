@@ -1,0 +1,45 @@
+/*removing browser dafaults styling*/
+/* the * acts as a select all*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body { 
+    color: #39a6b2;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+/* applying stylke to header*/ 
+/* padding applies space around the content of the element*/
+header {
+    padding: 30px 35px;
+    background-color: #39a6b2;
+}
+/*styling the content of the header*/
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+/* styling 'a' element*/
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+/*styling the nav elemnt*/
+/*float allows othen elemnts to be along side a block element*/
+/*A block element is trying to fit the parent's width by default*/ 
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/*styling nav content*/ 
+header nav ul li{ 
+display: inline;
+margin: 0 30px;
+font-weight: lighter;
+font-size: 25px;
+}
